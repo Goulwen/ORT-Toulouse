@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML CSS JS</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <!-- nav -->
+    <div class="container" id="nav">     
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand, toggle pour l'affichage en version mobile -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#nav">Accueil</a>
+          </div>
+
+          <!-- Liens de navigation a droite -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#team">Team</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!-- navbar-collapse -->
+        </div><!-- container-fluid -->
+      </nav>
+    </div>
+    <!-- Fin nav -->
+    <!-- slider -->
+    <div id="hero" class="carousel slide" data-ride="carousel">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div align="center">
+            <iframe width="560" height="335" src="https://www.youtube.com/embed/9TGlc0Fufgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div> 
+        <div class="item">
+          <div align="center">
+            <img src="https://cdn.pixabay.com/photo/2019/09/04/20/34/plantation-4452538__340.jpg" class="img-responsive" height="315" alt="Paysage plantation">
+          </div>
+        </div>
+        <a class="left carousel-control" href="#hero" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#hero" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- Fin slider -->
+    <!-- services -->
+    <div id="services" class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="https://cdn.pixabay.com/photo/2019/08/06/02/16/landscape-4387209__340.jpg" alt="Montagne">
+          <p class="marginTop15"><strong>Texte en gras 1</strong></p>
+          <p>Lorem ipsum adipisicing elit.</p>
+          <p>ekhzt ratbdni gjegj e gjierg </p>
+        </div>
+        <div class="col-sm-4">
+          <img src="https://cdn.pixabay.com/photo/2019/08/30/15/05/border-collie-4441585__340.jpg" alt="Chien">
+          <p class="marginTop15"><strong>Texte en gras 2</strong></p>
+          <p>Lorem ipsum dolor sit amet</p>
+          <p>kfbskr rhbgh bbsf srhgbdhg drbg</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="https://cdn.pixabay.com/photo/2019/08/25/06/33/snail-4428838__340.jpg" alt="Escargot">
+          <p class="marginTop15"><strong>Texte en gras 3</strong></p>
+          <p>Lorem ipsum dolor consectetur</p>
+          <p>jsf gkjtjthir eteygfuye f fuvf</p>
+        </div>
+      </div>
+    </div>
+    <!-- Fin services -->
+    <!-- team -->
+    <div id="team" class="container">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>
+                <img src="https://cdn.pixabay.com/photo/2016/04/10/21/34/woman-1320810__340.jpg" alt="Jolie femme blonde">
+            </th>
+            <th>
+                <img src="https://cdn.pixabay.com/photo/2017/01/23/19/40/woman-2003647__340.jpg" alt="Jolie femme brune">
+            </th>
+            <th>
+                <img src="https://cdn.pixabay.com/photo/2016/01/19/17/48/woman-1149911__340.jpg" alt="Jolie femme avec chapeau">
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p class="marginTop15"><strong>Texte en gras 1</strong></p>
+              <p>Lorem ipsum adipisicing elit.</p>
+              <p>ekhzt ratbdni gjegj e gjierg </p>
+            </td>
+            <td>
+              <p class="marginTop15"><strong>Texte en gras 2</strong></p>
+              <p>Lorem ipsum dolor sit amet</p>
+              <p>kfbskr rhbgh bbsf srhgbdhg drbg</p>
+            </td>
+            <td>
+              <p class="marginTop15"><strong>Texte en gras 3</strong></p>
+              <p>Lorem ipsum dolor consectetur</p>
+              <p>jsf gkjtjthir eteygfuye f fuvf</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Fin team -->
+    <!-- portfolio -->
+    <div id="portfolio" class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, reiciendis dignissimos fugit minima iste excepturi modi itaque rem quasi earum corrupti dolores, aspernatur id numquam vero officiis. Dolorem, praesentium nobis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio suscipit explicabo assumenda at praesentium, minima id nostrum! Aperiam suscipit velit perferendis eveniet assumenda voluptas consequuntur ad dolore facilis doloribus? Numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nemo, officia, repellat, voluptates a voluptatibus dolor dolorum consequatur itaque alias distinctio dicta suscipit quod ratione quidem voluptas eveniet commodi deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam obcaecati qui quisquam impedit debitis, minus eum expedita magni nostrum. Ipsa ad eius sed sequi saepe recusandae est optio odio neque.</p>
+        </div>
+        <div class="col-sm-6 portfolioImage"></div>
+      </div>
+    </div>
+    <!-- Fin portfolio -->
+    <!-- contact -->
+    <div id="contact" class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div id="googleMap" class="z-depth-1-half map-container" style="height: 500px">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.1897975676225!2d1.3311215383351365!3d43.602589633443515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb04e125ea0c7%3A0xa03aa621ec26610d!2sORT%20Toulouse!5e0!3m2!1sfr!2sfr!4v1568129468735!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <form id="formContact">
+            <div class="form-group">
+              <input type="text" class="form-control" id="nomContact" name="nomContact" placeholder="Ecrire votre nom">
+            </div>
+            <div class="form-group">
+              <textarea id="messageContact" name="messageContact" cols="30" rows="10">Votre message.</textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Fin contact -->
+    <!-- footer -->
+    <footer>
+        <div class="row">
+          <div class="col-sm-4">
+            <ul>
+              <li><strong>Titre 1</strong></li>
+              <li><a href="#nav">Accueil</a></li>
+              <li><a href="#hero">Hero</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#portfolio">portfolio</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul>
+                <li><strong>Titre 2</strong></li>
+                <li>Un texte</li>
+                <li>Un autre texte</li>
+                <li>Encore un autre texte</li>
+                <li>Fin des texte de ce titre</li>
+              </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul>
+                <li><strong>Titre 3</strong></li>
+                <li>c'est ok</li>
+                <li>un texte</li>
+                <li>qui termine</li>
+                <li>le devoir</li>
+              </ul>
+          </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
