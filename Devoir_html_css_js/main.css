@@ -1,4 +1,11 @@
+@import "css/bootstrap_v3.4.1.min.css";
+@import "css/twitter_bootstrap_v3.3.5.min.css";
+@import "css/bootstrap_slider_v10.6.2.css";
+@import "css/style.css";
+
+/* Utilisation de cdn *//*;
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.2/css/bootstrap-slider.css");
 @import url("css/style.css");
+*/
