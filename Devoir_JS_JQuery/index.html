@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercice tache</title>
+  <link rel="stylesheet" href="css/taches.css">
+</head>
+<body>
+  <main>
+    <h1>Ma liste de tâches</h1>
+
+    <div class="confirm-popup">
+      <h3>Voulez-vous vraiment supprimer cette tâche ?</h3>
+      <button onclick="deleteTodo();">Oui</button>
+      <button onclick="closePopup();">Non</button>
+    </div>
+
+    <div class="form-add-todo">
+      <form id="formAddTodos" action="#">
+        <input id="nomTodos" name="nomTodos" type="text">
+        <input id="confirmationAjoutTodos" type="submit" value="Ajouter">
+      </form>
+    </div>
+
+    <div id="todos" class="todos"></div>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <script src="js/listeTache.js"></script>
+</body>
+</html>

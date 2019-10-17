@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    text-shadow: 1px 1px 2px #555;
+}
+
+.form-add-todo,
+.todos {
+    box-shadow: 1px 1px 2px #555;
+    border: 1px solid #aaa;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.todos {
+    border: none;
+    box-shadow: none;
+}
+
+.todo {
+    justify-content: center;
+    border: 1px solid #aaa;
+    box-shadow: 1px 1px 2px #555;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.todo * {
+    display: inline;
+}
+
+.todo input[type=checkbox]:checked + p {
+    text-decoration: line-through;
+}
+
+.confirm-popup {
+    display: none;
+    position: absolute;
+    padding: 50px;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    background: rgba(0,0,0,0.85);
+    color: white;
+}
