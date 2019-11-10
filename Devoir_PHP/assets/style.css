@@ -1,0 +1,33 @@
+.containerLogin {
+	height: 100vh;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.sousNav {
+	height: 176px;
+}
+@media (min-width: 576px){
+	.sousNav {
+		height: 56px;
+	}
+}
+
+.erreurLog {
+	font-weight: 900;
+	font-size: 2em;
+	color: red;
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.inputAjoutTache {
+	width: 190px;
+}
